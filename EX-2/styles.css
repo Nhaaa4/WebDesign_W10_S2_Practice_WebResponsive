@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.menu i {
+    display: none;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .menu i {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+}
